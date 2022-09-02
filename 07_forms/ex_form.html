@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet and Love</title>
+</head>
+<body>
+    <main>
+        <!--ESTRUTURA DO ELEMENTO FORM-->
+        <form method="post">
+            <h2>insira seus dados</h2>
+
+            <input type="text" name="nome" placeholder="Nome" required><br>
+            <input type="number" name="idade" placeholder="Idade" required><br>
+            <input type="email" name="email" placeholder="E-mail" required> <br>
+    
+            <h2>você indicaria a loja para seu amigo?</h2>
+        
+                <input type="radio" name="escolha" value="S">
+                <label> Sim</label>
+                <input type="radio" name="escolha" value="N">
+                <label>Não</label>
+
+            <h2>Oque você mais gostou na loja?</h2>
+
+                <input type="checkbox" name="doces">
+                <label for="doces">Doces</label>
+                <input type="checkbox" name="Ambiente">
+                <label for="Ambiente">Ambiente</label>
+                <input type="checkbox" name="entrega">
+                <label for="entrega">Entrega de pedido</label>
+                <input type="checkbox" name="atendimento">
+                <label for="atendimento">Atendimento</label>
+                <input type="checkbox" name="valores">
+                <label for="valores">Valores</label>
+
+            <h2>Qual sobremesa ou salgado você comprou na ultima compra?</h2>
+
+            <input type="text" id="product">
+
+           <h2>Em qual loja você foi atendido?</h2>
+
+            <input name="lojas" id="lojas" autocomplete="on" list="loja">
+            <datalist id="loja">
+                <option value="aclimacao">Aclimação</option>
+                <option value="liberdade">Liberdade</option>
+                <option value="tatuape">Tatuapé</option>
+                <option value="saojoaquim">São joaquim</option>
+            </datalist>
+           
+         
+        </form>
+    </main>
+</body>
+</html>

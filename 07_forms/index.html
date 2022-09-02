@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ESTRUTURA DO ELEMENTO FORM -->
+    <!-- METHOD POST N MOSTRA NA URL OS DADOS -->
+    <!-- METHOD GET MOSTRA OS DADOS ENVIADOS NA URL -->
+    <form method="post" action="guilhermecolin09@gmail.com" autocomplete="on">
+        <input type="text" required>
+        <input type="password" name="senha" required>
+        <input type="submit" value="Enviar"><br>
+
+        <!-- VALOR CHECKBOX DO DO ATRIBUTO TYPE -->
+
+        <p>escolha o estado que você quer morar</p>
+        <label for="tor">toronto</label>
+        <input type="checkbox" id="tor"><br>
+
+        <label for="tex">Texas</label>
+        <input type="checkbox"id="tex">
+
+        <p>Selecione a vacina</p>
+
+        <label for="mega">Megatron</label>
+        <input type="radio" id="mega" name="tipo">
+
+        <label for="bom">bombombi</label>
+        <input type="radio" id="bom" name="tipo">
+
+        <label for="iro">bombeiro</label>
+        <input type="radio" id="iro" name="tipo">
+        
+        <!-- ELEMENTO, SELECT, DATALIST E OPTION -->
+        <label for="pao"></label>
+        <select name="pao" id="pao">
+            <option value="forma">Forma</option>
+            <option value="bronha">Bronha</option>
+            <option value="frances">Francês</option>
+            <option value="baguete">Baguete</option>
+        </select>
+    </form>
+</body>
+</html>
